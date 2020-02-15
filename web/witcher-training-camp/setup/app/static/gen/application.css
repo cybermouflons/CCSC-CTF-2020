@@ -1,0 +1,183 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto';
+@import 'https://fonts.googleapis.com/css?family=Bilbo|Cinzel+Decorative|IM+Fell+Great+Primer+SC|Mate+SC';
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#mainContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://res.cloudinary.com/meijerfw/image/upload/v1475952981/mainBackground_tinyPNG_epa1m9.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  max-height: 250px;
+  padding-top: 25px;
+}
+
+.profile img {
+  padding-left: 50px;
+  width: auto;
+  height: 250px;
+}
+
+.profileText {
+  font-family: "Open sans condensed";
+  font-size: 20px;
+  color: whitesmoke;
+  align-self: center;
+}
+
+.profileText > span.name {
+  font-family: "Cinzel Decorative";
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+}
+
+.profileText > p.sign {
+  margin-top: -20px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
+  text-align: right;
+}
+
+.profileText > p.quote {
+  font-family: "Bilbo";
+  font-size: 24px;
+  color: white;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 20px;
+  color: ghostwhite;
+}
+
+section p.p1 img {
+  float: left;
+  height: 140px;
+  padding-right: 20px;
+}
+
+section p.p3 img {
+  float: right;
+  height: 140px;
+  padding-right: 20px;
+}
+
+.readMore {
+  font-family: Roboto;
+  color: antiquewhite;
+  max-width: 800px;
+  margin:20px auto 0 auto;
+}
+
+.readMore a {
+  font-family: Roboto;
+  text-decoration: ;
+  color: antiquewhite;
+}
+
+footer {
+  font-family: sans-serif;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: antiquewhite;
+}
+
+form.enroll {
+	width: 100%;
+}
+
+.field-container {
+    width: 100%;
+    text-align: center;
+}
+
+.field-container div {
+    display: inline-block;
+    width: 30%;
+    text-align:left;
+    line-height:30px;
+    padding:5px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.field-container input {
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    line-height:30px;
+    padding:5px;
+    font-size: 18px;
+    background-color:#00000033;
+    width: 30%;
+}
+
+.formHeader {
+    font-family: "Open sans condensed";
+    font-size: 20px;
+    color: whitesmoke;
+    align-self: center;
+    text-align: center;
+}
+
+.formHeader > span.text {
+    font-family: "Cinzel Decorative";
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn { display: inline-block; *display: inline; *zoom: 1; padding: 4px 10px 4px; margin-bottom: 0; font-size: 13px; line-height: 18px; color: #333333; text-align: center;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; background-color: #f5f5f5; background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); border-color: #e6e6e6 #e6e6e6 #e6e6e6; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border: 1px solid #e6e6e6; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); cursor: pointer; *margin-left: .3em; }
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e6e6e6; }
+.btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+.btn-primary, .btn-primary:hover { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #ffffff; }
+.btn-primary.active { color: rgba(255, 255, 255, 0.75); }
+.btn-primary { background-color: #d4554a; background-image: -moz-linear-gradient(top, #de916e, #d4554a); background-image: -ms-linear-gradient(top, #de916e, #d4554a); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#de916e), to(#d4554a)); background-image: -webkit-linear-gradient(top, #de916e, #d4554a); background-image: -o-linear-gradient(top, #de916e, #d4554a); background-image: linear-gradient(top, #de916e, #d4554a); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#de916e, endColorstr=#d4554a, GradientType=0);  border: 1px solid #bc4737; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { filter: none; background-color: #d4554a; }
+
+* { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; }
+
+.login { 
+	width:100%;
+}
+.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+
+.login button { 
+  width: 300px;
+}

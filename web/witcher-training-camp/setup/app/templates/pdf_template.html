@@ -1,0 +1,150 @@
+{# templates/pdf_template.html #}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Witcher Training Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        @media print {
+            @page { margin: 0; }
+            body {
+                /* margin: 1.6cm; */
+                background-color: black;
+            }
+
+            iframe {
+                background-color: white;
+            }
+
+            .profileText {
+                font-family: "Open sans condensed";
+                font-size: 20px;
+                color: whitesmoke;
+                align-self: center;
+            }
+
+            .profileText > span.name {
+                font-family: "Cinzel Decorative";
+                font-size: 42px;
+                font-weight: 800;
+                color: white;
+            }
+
+
+            .flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                max-height: 250px;
+                padding-top: 25px;
+            }
+
+            .profile img {
+                padding-left: 50px;
+                width: auto;
+                height: 150px;
+            }
+
+            .secondaryText {
+                margin-top: 20px;
+                margin-bottom:20px;
+            }
+
+            .secondaryText > span.label {
+                font-family: "Cinzel Decorative";
+                font-size: 24px;
+                font-weight: 800;
+                color: white;
+            }
+
+            .secondaryText > span.value {
+                font-family: "Bilbo";
+                font-size: 24px;
+                font-weight: 200;
+                color: white;
+                text-align: right;
+            }
+
+            section {
+                max-width: 800px;
+                margin: 0 40px;
+                padding: 20px;
+                background: rgba(0, 0, 0, 0.6);
+                border: 2px solid whitesmoke;
+                border-radius: 10px;
+                font-family: "Roboto";
+                font-size: 16px;
+                font-weight: 200;
+                line-height: 20px;
+                color: ghostwhite;
+            }
+
+            section p.p1 img {
+                float: left;
+                height: 140px;
+                padding-right: 20px;
+            }
+
+            section p.p3 img {
+                float: right;
+                height: 140px;
+                padding-right: 20px;
+            }
+        }
+    </style>    
+</head>
+<body>
+    <div id="mainContainer">
+        <header class="flexbox">
+
+            <div class="profileText">
+              <span class="name">{{ full_name }}</span> 
+              <br />
+
+            </div>
+      
+            <div class="profile">
+              <img src="https://res.cloudinary.com/meijerfw/image/upload/v1475952981/Tw3_Geralt_of_Rivia_tinyPNG_jfridy.png" alt="Profile image" />
+            </div>
+      
+        </header>
+        
+
+        <section>
+            <p class="p1"><img src="https://res.cloudinary.com/meijerfw/image/upload/v1475953165/GeraltOfRivia_tinyPNG_fngtx6.png" alt="Geralt of Rivia" />
+              Taken in as children, witchers-to-be are subjected to intense alchemical processes, consumption of mutagenic compounds, and relentless physical and magical training to make them dangerous and highly versatile against their vast array of opponents, many of which possess superhuman speed, strength and/or other deadly powers. These procedures ultimately mean that each fully-trained witcher is a mutant built specifically to hunt and kill inhuman prey.
+              <!-- Source: https://witcher.fandom.com/wiki/Witcher -->
+            </p>
+            <p>Fill the form below to enroll to the next witcher training camp at your own risk. </p>
+      
+            <hr />
+     
+            
+            <div class="secondaryText">
+                <span class="label">Specialty:</span> 
+                <span class="value">{{ specialty }}</span> 
+                <br />
+            </div>
+            <div class="secondaryText">
+                <span class="label">Origin:</span> 
+                <span class="value">{{ origin }}</span> 
+                <br />
+            </div>
+            <div class="secondaryText">
+                <span class="label">Photo Filename:</span> 
+                <span class="value">{{ picture | safe}}</span> 
+                <br />
+            </div>
+        </section>
+
+    </div>
+
+    
+    
+</body>
+</html>

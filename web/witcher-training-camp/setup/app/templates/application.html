@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Witcher Training Camp</title>
+  {% assets "application_css" %}
+      <link rel="stylesheet" href="{{ ASSET_URL }}" />
+  {% endassets %}
+</head>
+
+<body>
+  <div id="mainContainer">
+    <header class="flexbox">
+      <div class="profileText">
+        <span class="name">Witcher Training Camp</span>
+        <br />
+        <p class="quote">If I'm to choose between one evil and another, I'd rather not choose at all.</p>
+        <p class="sign">- Geralt of Rivia in The Last Wish (short stories)</p>
+      </div>
+
+      <div class="profile">
+        <img src="https://res.cloudinary.com/meijerfw/image/upload/v1475952981/Tw3_Geralt_of_Rivia_tinyPNG_jfridy.png" alt="Profile image" />
+      </div>
+    </header>
+
+    <section>
+      <p class="p1"><img src="https://res.cloudinary.com/meijerfw/image/upload/v1475953165/GeraltOfRivia_tinyPNG_fngtx6.png" alt="Geralt of Rivia" />
+        Taken in as children, witchers-to-be are subjected to intense alchemical processes, consumption of mutagenic compounds, and relentless physical and magical training to make them dangerous and highly versatile against their vast array of opponents, many of which possess superhuman speed, strength and/or other deadly powers. These procedures ultimately mean that each fully-trained witcher is a mutant built specifically to hunt and kill inhuman prey.
+        <!--  -->
+      </p>
+      <p>Fill the form below to enroll to the next witcher training camp at your own risk. </p>
+
+      <hr />
+
+      <div class="formHeader">
+          <br/>
+            <span class="text">Enroll Form</span>
+      </div>
+      <br />
+      <form class="enroll" method="post" action="/enroll" >
+        <datalist id="specialties">
+          <option value="Sorcerer">
+          <option value="Barberian">
+          <option value="Rogue">
+          <option value="Necromancer">
+        </datalist>
+
+        <div class="field-container">
+            <div>Full Name</div>
+            <input type="text" name="full_name">
+        </div>
+        <div class="field-container">
+            <div>Origin</div>
+            <input type="text" name="origin">
+        </div>
+        <div class="field-container">
+            <div>Preferred Specialty</div>
+            <input type="text" name="specialty" list="specialties">
+        </div>
+        <div class="field-container">
+          <div>Picture upload:</div>
+          <input type="file" name="picture">
+        </div>
+        <div class="field-container">
+          <div>I give my consent to undergo genetic mutations:</div>
+          <input type="checkbox" name="consent" unchecked>
+        </div>
+        <div class="field-container login">
+          <button type="submit" class="btn btn-primary btn-block btn-large">Enroll</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <audio autoplay  preload="auto" loop>
+    <source src="static/music/tossacoin.mp3" />
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+  </audio>
+</body>
+
+<!-- Credits ( There are not relevant to the challenge! ):
+Html Template: freeCodeCamp - Freddy Meijer 2016 &copy;
+Source: https://witcher.fandom.com/wiki/Witcher
+Music: https://www.youtube.com/watch?v=RsgBOVtvbP0 -->
+</html>

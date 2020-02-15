@@ -12,4 +12,9 @@ Mousesack, the mighty druid of Cintra was summoned to cast a powerful spell agai
 
 ## Solution
 
+<details>
+ <summary>Reveal Spoiler</summary>
+
 Two points are given on an elliptic curve defined over a Finite Field and participants are asked to solve the ECDLP problem for these two points. Since the order of the finite field is a relatively small the solution can be brute forced or SageMath can be used instead. A solution script using SageMath is given in the `challenge_setup.ipynb` file.
+
+</details>
