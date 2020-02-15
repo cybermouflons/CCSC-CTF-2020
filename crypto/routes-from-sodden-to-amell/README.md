@@ -1,15 +1,17 @@
-# Mousesack's Spell
+# Routes from Sodden to Amell 
 **Category:** crypto
 
 **Author:** \_Roko'sBasilisk\_
 
 ## Description
 
-Mousesack, the mighty druid of Cintra was summoned to cast a powerful spell against Nilfgard troops. Apparently, mathematics and witchraft are more related than you think. A special type of spells called Discrete Logarithmus is sealed by Elliptic Curve mathematics. Solve Help Mousesack to solve this Elliptic Curve seal in order to cast his spell! 
+There are many common routes in the Sodden Kingdom that lead to Amell mountains. A lot of encryption keys where intercepted in those routes over time, along with an encrypted ciphertext. Your are tasked to decrypt the message. Apart from the routes maybe these keys have something else in common...?
 
 ## Points
-150
+450
 
 ## Solution
 
-Two points are given on an elliptic curve defined over a Finite Field and participants are asked to solve the ECDLP problem for these two points. Since the order of the finite field is a relatively small the solution can be brute forced or SageMath can be used instead. A solution script using SageMath is given in the `challenge_setup.ipynb` file.
+A list of RSA public parameters is provided along with a ciphertext. The description should hint that two of those keys actually share a prime factor. This is a serious cryptographic vulnerability for RSA keys and has happened in real world cases multiple times. In fact, this was the inspiration for this challenge (More details here: https://factorable.net/ ). To solve this, participants must perform a GCD operation (Greatest Common Divisor) to all possible pair of keys such that they identify which keys share the same prime factors. Once the keys are identified the shared prime factor can divide the modulus to get the remaing prime factor. Then the decryption of the ciphertext is a trivial task. The
+
+Note that with 21 RSA keys provided, there are 210 possible pair combinations. The GCD check can be performed in a naive brute force manner however there is a more efficient approach as shown here https://factorable.net/weakkeys12.conference.pdf . A solution using this method is provided in the `challenge_setup.ipynb` notebook.
