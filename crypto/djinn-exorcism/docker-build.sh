@@ -1,0 +1,1 @@
+docker build ./setup -t ccsc2020/djinn-exorcism
