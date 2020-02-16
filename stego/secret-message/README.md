@@ -1,4 +1,4 @@
-# Witcher Training Camp 
+# Secret Message
 Category: stego
 
 Author: S1kk1S
