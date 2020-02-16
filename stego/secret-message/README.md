@@ -1,16 +1,16 @@
 # Secret Message
-Category: stego
+**Category**: stego
 
-Author: S1kk1S
+**Author**: S1kk1S
 
-### Description
+## Description
 
 Jaskier's song contains a secret message inside it! Can you find it?
 
-### Points
+## Points
 100
 
-### Solution
+## Solution
 <details>
  <summary>Reveal Spoiler</summary>
 

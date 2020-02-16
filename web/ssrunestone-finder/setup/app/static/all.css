@@ -1,0 +1,15 @@
+body {
+  min-height: 100%;
+  position: relative; }
+  body #task-list-holder {
+    margin-bottom: 100px; }
+    body .footer {
+      font-size: 18px; }
+      body .row {
+        padding-top: 20px;
+        padding-bottom: 15px; }
+        body .card {
+          margin-bottom: 15px; }
+          body a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px; }

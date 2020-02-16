@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+
+  web:
+    build: .
+    restart: always
+    environment:
+      - FLAG=${FLAG}
+    volumes:
+      - ./app:/app
+    ports:
+      - "8081:80"
+    depends_on:
+      - redis
+  
+  redis:
+    image: 'redis'
+
+  worker:
+    build: 
+      context: .
+      dockerfile: Dockerfile-worker
+    restart: always
+    depends_on:
+      - redis

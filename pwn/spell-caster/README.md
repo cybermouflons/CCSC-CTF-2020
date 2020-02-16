@@ -1,15 +1,16 @@
 # Spell Caster
-Category: pwn
+**Category**: pwn
 
+**Author:** \_Roko'sBasilisk\_
 
-### Description
+## Description
 
 Circle of Elements is a special location that Witchers can boost their magical spells. Use this binary to cast Witcher spells while you are in the Circle of Elements but beware of the formatting!
 
-### Points
+## Points
 300
 
-### Solution
+## Solution
 
 <details>
  <summary>Reveal Spoiler</summary>

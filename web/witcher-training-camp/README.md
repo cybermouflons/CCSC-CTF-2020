@@ -1,15 +1,16 @@
 # Witcher Training Camp 
 Category: web
 
+**Author:** \_Roko'sBasilisk\_
 
-### Description
+## Description
 
 Witcher Training Camp has launched a new website. Can you hack it and get the flag?
 
-### Points
+## Points
 250
 
-### Solution
+## Solution
 <details>
  <summary>Reveal Spoiler</summary>
 

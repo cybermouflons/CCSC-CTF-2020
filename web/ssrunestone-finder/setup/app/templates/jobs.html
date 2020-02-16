@@ -1,0 +1,139 @@
+<html>
+    <head>
+        {% assets "scss_all" %}
+            <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+        {% endassets %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/font-awesome.min.css">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Rune Finder</h5>
+        </div>
+        
+        <div id="task-complete" class="container">
+            <div class="row">  
+                <div class="col-12 pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4">Welcome</h1>
+                    <p class="lead">Geralt is too lazy so he built this webapp to automatically find runes in the internet. It is an asynchronous scheduler to count the word 'runestone' in any website. Use the form provided to submit a new task to the queue and wait for the results.</p>
+                    <p class="lead">Note that submitted tasks are kepts for some time and then deleted automatically.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">   
+                    <form action="/jobs/submit" method="post">
+                    <div class="form-group text-centered">
+                        <label for="task-title">Task name</label>
+                        <input id="task-title" class="input form-control" type="text" name="name" placeholder="name">
+                    </div>
+                    <div class="form-group text-centered">
+                        <label for="task-deadline">URL</label>
+                        <input id="task-deadline" class="input form-control" type="text" name="url">
+                    </div>        
+                    <button type="submit" id="submit-btn" class="submit btn btn-success">Submit task</button>
+                    </form>
+                </div>
+            </div>
+            <hr />
+            {% if jobs%}
+                <div id="task-list-holder" class="row">
+                    <div class="col-md-12">
+                        <h2>Tasks</h2>
+                        <div class="row">
+                            {% for job in jobs %}
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            {{ job.meta["name"] }}
+                                            {% if job.is_finished %}
+                                                {% if job.result[2] == None %}
+                                                    <span class="badge badge-danger float-sm-right">Hacking Attempt!</span>
+                                                {% else %}
+                                                    <a href="#" class="float-sm-right" data-toggle="modal" data-target="#{{ job.meta['tag'] }}">
+                                                        <span class="badge badge-primary">Show Response</span>
+                                                    </a>
+                                                {% endif %}
+                                            {% endif %}
+                                        </div>
+                                        <div class="card-body">
+                                            <strong>URL:</strong> <a href="{{  job.args[0] }}" class="icon-block">{{  job.args[0] }}</a>
+                                            <div class="row">
+                                                <div class="col-sm-6 text-center">
+                                                    {% if job.is_finished %}
+                                                        <h1>{{ job.result[0] }}</h1>
+                                                    {% else %}
+                                                        <h1>N/A</h1>
+                                                    {% endif %}
+                                                    <p>Words</p>
+                                                </div>
+                                                <div class="col-sm-6 text-center">
+                                                    {% if job.is_finished %}
+                                                        <h1>{{ job.result[1] }}</h1>
+                                                    {% else %}
+                                                        <h1>N/A</h1>
+                                                    {% endif %}
+                                                    <p>Runestones</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer text-muted">
+                                            Started: {{ job.enqueued_at.strftime('%Y-%m-%d %H:%M:%S') }}
+                                            {% if job.is_finished %}
+                                                <span class="badge badge-success float-sm-right">Finished</span>
+                                            {% elif job.is_failed %}
+                                                <a href="#" class="float-sm-right" data-toggle="modal" data-target="#{{ job.meta['tag'] }}">
+                                                    <span class="badge badge-danger float-sm-right">Failed</span>
+                                                </a>
+                                            {% elif job.is_scheduled %}
+                                                <span class="badge badge-secondary float-sm-right">Scheduled</span>
+                                            {% else %}
+                                                <span class="badge badge-warning float-sm-right">Running</span>
+                                            {% endif %}
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal -->
+                                {% if job.is_finished or job.is_failed %}
+                                    <div class="modal fade" id="{{ job.meta['tag'] }}" tabindex="-1" role="dialog" aria-labelledby="{{ job.meta['tag'] }}Title" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="{{ job.meta['tag'] }}Title">{{ job.meta["name"] }}</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    {% if job.is_finished %}
+                                                        <pre>{{ job.result[2] }}</pre>
+                                                    {% else %}
+                                                        <pre>"{{job.__dict__['exc_info'] }}"</pre>
+                                                    {% endif %}
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>    
+                </div><!-- .row -->
+            {% endif %}
+        </div><!-- Ends .container -->
+
+        <nav class="navbar fixed-bottom navbar-light bg-light footer">
+            <span >Redis running @ <strong class="text-primary">{{redis_ip}}</strong></span>
+        </nav>
+    </body>
+</html>
+
+
