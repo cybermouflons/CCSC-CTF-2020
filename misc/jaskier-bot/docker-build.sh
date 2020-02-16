@@ -1,0 +1,1 @@
+docker build --build-arg DISCORD_BOT_TOKEN=<REPLACE_DISCORD_BOT_TOKEN> -t ccsc2020/jaskier-bot .

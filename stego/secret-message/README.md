@@ -1,6 +1,7 @@
 # Witcher Training Camp 
 Category: stego
 
+Author: S1kk1S
 
 ### Description
 

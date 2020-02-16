@@ -1,0 +1,1 @@
+docker container run --read-only -it ccsc2020/jaskier-bot
