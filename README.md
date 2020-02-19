@@ -14,47 +14,47 @@ Although some of the challenges may run as is, it is recommended that you have *
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| basilisk64 | 50 | koks |
-| Calanthe's Secrets | | |
-| Djinn Exorcism | | |
-| EClectic DisHonor | | |
-| Mousesack's Spell | | |
-| Rivia Scala Aldersberg | 150 | koks |
-| Routes from Sodden to Amell | | |
+| [basilisk64](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/basilisk64) | 50 | koks |
+| [Calanthe's Secrets](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/calanthes-secrets) | 250 | \_Roko'sBasilisk\_ |
+| [Djinn Exorcism](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/djinn-exorcism) | 300 | \_Roko'sBasilisk\_ |
+| [EClectic DisHonor](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/eclectic-dishonor) | ? | koks |
+| [Mousesack's Spell](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/mousesacks-spell) | 150 | \_Roko'sBasilisk\_ |
+| [Rivia Scala Aldersberg](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/rivia-scala-aldersberg) | 150 | koks |
+| [Routes from Sodden to Amell](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/routes-from-sodden-to-amell) | 450 | \_Roko'sBasilisk\_ |
   
 ### Forensics
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| Abnormal Communication | | |
+| [Abnormal Communication]() | 150 | kotsios |
 
 ### Misc
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| Jaskier Bot | | |
-| The Last Wish | 100 | koks |
+| [Jaskier Bot](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/misc/jaskier-bot) | 250 | \_Roko'sBasilisk\_ && S1kk1S|
+| [The Last Wish](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/misc/the-last-wish) | 100 | koks |
 
 ### Pwn
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| Spell Caster | | |
+| [Spell Caster](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/spell-caster) | 300 | \_Roko'sBasilisk\_ |
 
 ### Stego
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| Golem | 50 | koks |
-| Secret Message | | |
-| The Map | | |
+| [Golem](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/golem) | 50 | koks |
+| [Secret Message](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/secret-message) | 100 | S1kk1S |
+| [The Map](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/the_map) | 100 | superhedgy |
 
 ### Web
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| 0potion | 300 | koks |
-| Just Wraith Trouble | 150 | koks |
-| Robomutant | 50 | koks |
-| SSRunestone Finder | | |
-| Witcher Training Camp | | | 
+| [0potion](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/0potion) | 300 | koks |
+| [Just Wraith Trouble](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/just-wraith-trouble) | 150 | koks |
+| [Robomutant](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/robomutant) | 50 | koks |
+| [SSRunestone Finder](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/ssrunestone-finder) | 350 | \_Roko'sBasilisk\_ |
+| [Witcher Training Camp](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/witcher-training-camp) | 250 | \_Roko'sBasilisk\_ | 
