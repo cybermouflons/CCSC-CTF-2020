@@ -11,7 +11,7 @@ The Witcher is going to face the striga in order to lift the curse. Who is actua
 <details>
  <summary>Reveal Spoiler</summary>
 
-There is a Python script inside "reveal_the_striga.jpg", which can be retrieved with the following tool: [Steghide](https://github.com/StefanoDeVuono/steghide). 
+There is a Python script inside "reveal_the_striga.jpg", which can be retrieved with the following tool: [Steghide](https://pkg.kali.org/pkg/steghide). 
 
 The flag can be easily retrieved with a minor mod (or not) on the script.
 
