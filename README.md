@@ -27,6 +27,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | Name | Points | Author |
 | ---- | ------ | ------ |
 | [Abnormal Communication]() | 150 | kotsios |
+| [Noonwraith's a hacker]() | 175 | v4kkI5 |
 
 ### Misc
 
@@ -48,6 +49,9 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [Golem](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/golem) | 50 | koks |
 | [Secret Message](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/secret-message) | 100 | S1kk1S |
 | [The Map](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/the_map) | 100 | superhedgy |
+
+### Mobile
+| [Treasure Hunting]() | 350 | v4kkI5 |
 
 ### Web
 
