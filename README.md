@@ -17,7 +17,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [basilisk64](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/basilisk64) | 50 | koks |
 | [Calanthe's Secrets](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/calanthes-secrets) | 250 | \_Roko'sBasilisk\_ |
 | [Djinn Exorcism](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/djinn-exorcism) | 300 | \_Roko'sBasilisk\_ |
-| [EClectic DisHonor](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/eclectic-dishonor) | ? | koks |
+| [EClectic DisHonor](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/eclectic-dishonor) | 150 | koks |
 | [Mousesack's Spell](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/mousesacks-spell) | 150 | \_Roko'sBasilisk\_ |
 | [Rivia Scala Aldersberg](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/rivia-scala-aldersberg) | 150 | koks |
 | [Routes from Sodden to Amell](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/crypto/routes-from-sodden-to-amell) | 450 | \_Roko'sBasilisk\_ |
