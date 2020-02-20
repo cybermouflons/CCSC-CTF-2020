@@ -27,7 +27,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | Name | Points | Author |
 | ---- | ------ | ------ |
 | [Abnormal Communication]() | 150 | kotsios |
-| [Noonwraith's a hacker]() | 175 | v4kkI5 |
+| [Noonwraith's a hacker]() | 175 | v4kk15 |
 
 ### Misc
 
@@ -53,7 +53,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 ### Mobile
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| [Treasure Hunting]() | 350 | v4kkI5 |
+| [Treasure Hunting]() | 350 | v4kk15 |
 
 ### Web
 
