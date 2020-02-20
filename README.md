@@ -51,6 +51,8 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [The Map](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/the_map) | 100 | superhedgy |
 
 ### Mobile
+| Name | Points | Author |
+| ---- | ------ | ------ |
 | [Treasure Hunting]() | 350 | v4kkI5 |
 
 ### Web
