@@ -6,4 +6,4 @@ Medium
 
 ### Description
 
-Help Yennefer find the ingredients she needs to make that potion.
+Help Yennefer find the ingredients she needs to brew the potion.
