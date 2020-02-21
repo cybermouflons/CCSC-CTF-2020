@@ -31,9 +31,9 @@ To extract the source code we either copy the data portion to a text editor or b
 ![](images/4_source.png)
  
 The above script does the following
-	- 1.	Imports scapy library
-	- 2.	Reads a file (flag.png)
-	- 3.	Uses scapy library to craft ICMP packets. The payload of these packets is the flag.png bytes (split into 64 bytes in the above example).
+- 1. Imports scapy library
+- 2. Reads a file (flag.png)
+- 3. Uses scapy library to craft ICMP packets. The payload of these packets is the flag.png bytes (split into 64 bytes in the above example).
 
 ###### NOTE
 Packet #227, the second “Read Response” contains a PNG file in the data portion. This file, named flag.png, was located on the same folder as the python script under the folder Prototype. This is NOT the flag but a file used as a decoy.
