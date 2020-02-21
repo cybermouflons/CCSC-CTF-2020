@@ -26,14 +26,16 @@ Although some of the challenges may run as is, it is recommended that you have *
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| [Abnormal Communication]() | 150 | kotsios |
+| [Abnormal Communication](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/abnormal_communication) | 150 | kotsios |
 | [Noonwraith's a hacker]() | 175 | v4kk15 |
 | [Royal huntsman's Dump](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/royal-huntsman's-dump) | 150| s1kk1s |
+| [Much more than echoes](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/much_more_than_echoes) | 250| anderson101 |
+
 ### Misc
 
 | Name | Points | Author |
 | ---- | ------ | ------ |
-| [Jaskier Bot](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/misc/jaskier-bot) | 250 | \_Roko'sBasilisk\_ && S1kk1S|
+| [Jaskier Bot](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/misc/jaskier-bot) | 250 | \_Roko'sBasilisk\_ && s1kk1s|
 | [The Last Wish](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/misc/the-last-wish) | 100 | koks |
 
 ### Pwn
@@ -50,6 +52,10 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [Golem](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/golem) | 50 | koks |
 | [Secret Message](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/secret-message) | 100 | S1kk1S |
 | [The Map](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/the_map) | 100 | superhedgy |
+| [The Striga](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/the_striga) | 150 | andr0sn |
+| [Yennefer's Curse](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/yennefers-curse) | 150 | andr0sn |
+| [Those are dangerous streams](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/stego/those_are_dangerous_streams) | 100 | anderson101 |
+
 
 ### Mobile
 | Name | Points | Author |

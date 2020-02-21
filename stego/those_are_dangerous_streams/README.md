@@ -12,6 +12,9 @@
 
 # Solution: 
 
+<details>
+ <summary>Reveal Spoiler</summary>
+
 ###### Hint: Those streams are alternative
 ###### Flag: ccsc{Hidd3n_In_the_D3pth5}
 
@@ -28,3 +31,5 @@ Get the streams of a specified file
 Get the stream contents of a file
 
 ![](get-content.png)
+
+</details>

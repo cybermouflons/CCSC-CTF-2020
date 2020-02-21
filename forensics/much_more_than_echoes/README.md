@@ -11,6 +11,9 @@ Tisaia has sent disguised message out of Aretuza. Gerad who has been watching he
 
 # Solution
 
+<details>
+ <summary>Reveal Spoiler</summary>
+
 ###### Hint (optional): "Look at those pings. Many pings, sent for what?
 ###### Flag: ccsc{Pings_are_the_most_dangarous_things_in_this_world}
 
@@ -57,3 +60,6 @@ tshark -r CCSC.pcapng -Y "icmp && ip.src == 10.0.3.15" -T fields -e data | xxd -
 A file should appear with the reassembled bytes into a PNG image. Opening the image reveals the flag
 
 ![](images/7_flag.png)
+
+
+</details>
