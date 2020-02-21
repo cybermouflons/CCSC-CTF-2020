@@ -41,6 +41,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | Name | Points | Author |
 | ---- | ------ | ------ |
 | [Spell Caster](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/spell-caster) | 300 | \_Roko'sBasilisk\_ |
+| [Guy de Bois](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/guy-de-bois) | 200 | \_Roko'sBasilisk\_ |
 
 ### Stego
 
