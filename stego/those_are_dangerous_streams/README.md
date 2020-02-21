@@ -23,7 +23,9 @@
   - c.	Part 3: Alternate data stream. The last part can be obtained by the following two PowerShell commands
 
 Get the streams of a specified file
-![](get-content.png)
 
-Get the stream contents of a file 
 ![](get-item.png)
+
+Get the stream contents of a file
+
+![](get-content.png)
