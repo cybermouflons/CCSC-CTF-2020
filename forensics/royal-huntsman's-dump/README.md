@@ -19,20 +19,20 @@ The memory dump contains a cmd process which runs a powershell command that can 
 ```powershell
 volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw imageinfo
 volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile Win7SP1x64 pslist
-volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile Win7SP1x64 memdump -D dump/ -p 180 
+volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile Win7SP1x64 memdump -D dump/ -p 180
 volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile Win7SP1x64 memdump -D dump/ -p 1128
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 ```bash
 strings -e l ./108.dmp | grep wget # Gets the file for the flag
 strings -e l ./1128.dmp | grep rundll32 # Founds the name of the file "update.dll"
-
 ```
 
+All you have to do to get the flag is visit the website
 ```
-All you have to do to get the flag is visit the website 
-
-```
-http://192.168.125.250:5000/32c1eb3a605f4006370eb2028f44389552e3507f/Th3W1tchER/Str1Ga 
+http://192.168.125.250:5000/32c1eb3a605f4006370eb2028f44389552e3507f/Th3W1tchER/Str1Ga
 ```
 </details>
-
