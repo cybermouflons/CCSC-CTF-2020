@@ -1,0 +1,1 @@
+docker build -t ccsc2020/huntsman_dump .

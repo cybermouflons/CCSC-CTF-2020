@@ -28,7 +28,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | ---- | ------ | ------ |
 | [Abnormal Communication]() | 150 | kotsios |
 | [Noonwraith's a hacker]() | 175 | v4kk15 |
-
+| [Royal huntsman's Dump](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/royal-huntsman's-dump) | 150| s1kk1s |
 ### Misc
 
 | Name | Points | Author |
