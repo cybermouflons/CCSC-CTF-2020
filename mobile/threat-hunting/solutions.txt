@@ -1,0 +1,31 @@
+java -jar .\apktool_2.4.0.jar -r d .\treasure.apk
+
+Changes in smali MainActivity file (checkForBinary function):
+----------------------
+const/4 v7, 0
+return v7
+return v7
+
+java -jar .\apktool_2.4.0.jar b .\app-debug\ -o modified.apk
+java -jar .\sign.jar .\modified.apk
+adb.exe install -r -t .\modified.s.apk
+
+Click SEND
+
+----------------------------------------------------------------------------------------------
+
+Note: Further difficulty is that the app will not work in all Android API Levels 
+due to the fact that newest API levels do not accept plain HTTP requests (only HTTPS).
+The participants will need to find out this behaviour from the logs. 
+
+According to https://developer.android.com/training/articles/security-config#CleartextTrafficPermitted
+Starting with Android 9 (API level 28), cleartext support is disabled by default. Thus,the participants 
+will have to use API level 27 (rooted) which is also the minimum level permitted by the app. 
+
+Taking into consideration all the above, the challenge cannot be solved without Android Studio (unless they
+are lucky and they have the correct API level on their personal device)
+
+----------------------------------------------------------------------------------------------
+
+Challenge title:"Treasure Hunting"
+Narrative: Will this treasure worth it though?
