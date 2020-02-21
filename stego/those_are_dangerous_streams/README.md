@@ -10,11 +10,10 @@
 # Points
 100
 
-
-### Hint: Those streams are alternative
-### Flag: ccsc{Hidd3n_In_the_D3pth5}
-
 # Solution: 
+
+###### Hint: Those streams are alternative
+###### Flag: ccsc{Hidd3n_In_the_D3pth5}
 
 1.	A text file containing the flag is stored in a virtual hard drive “Njall.vhdx” formatted in NTFS (required to preserve the file stream)
 2.	Once the VHDX is mounted, a text file containing the flag (3 pieces) can be accessed
