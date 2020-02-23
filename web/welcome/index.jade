@@ -1,0 +1,25 @@
+doctype html
+
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+		title Welcome Page
+		link(href='/css/main.css', rel='stylesheet')
+
+	body
+		div
+			if !message
+				h1 #[strong Welcome to CCSC]
+
+				p https://www.youtube.com/watch?v=3U_LIMpzlMY
+				p #[strong Can you login?]
+
+				form(method="POST")
+					input(type="text", name="user", autocomplete="off")
+					input(type="password", name="pass", autocomplete="off")
+					input(type="submit")
+			else
+				p=message
+

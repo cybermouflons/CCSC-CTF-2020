@@ -71,3 +71,4 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [Robomutant](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/robomutant) | 50 | koks |
 | [SSRunestone Finder](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/ssrunestone-finder) | 350 | \_Roko'sBasilisk\_ |
 | [Witcher Training Camp](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/witcher-training-camp) | 250 | \_Roko'sBasilisk\_ | 
+| [Welcome](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/welcome) | 50 | kotsios |
