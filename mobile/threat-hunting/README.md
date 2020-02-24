@@ -4,7 +4,6 @@
 **Author:** v4kk15
 
 ## Description
-The Witcher's guild recently deployed a mobile application which will assist the humanfolk on   
 Will this treasure worth it though?
 
 ## Points
@@ -20,7 +19,7 @@ The memory dump contains a cmd process which runs a powershell command that can 
 java -jar .\apktool_2.4.0.jar -r d .\treasure.apk
 ```
 
-Changes in smali MainActivity file (checkForBinary function):
+#### Changes in smali MainActivity file (checkForBinary function):
 ----------------------
 ```bash
 const/4 v7, 0
