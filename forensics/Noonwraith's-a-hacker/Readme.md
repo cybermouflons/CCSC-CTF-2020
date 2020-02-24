@@ -16,8 +16,8 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 <details>
  <summary>Reveal Spoiler</summary>
 
-##### Noonwraith has compromised Yennefer's machine to steal the secret recipe for the resurrection potion. He used a C2 server to communicate with the compromised machine. 
-Which protocol is used in the C2 communication? (30 points) - only one attempt
+#### Noonwraith has compromised Yennefer's machine to steal the secret recipe for the resurrection potion. He used a C2 server to communicate with the compromised machine. 
+- Which protocol is used in the C2 communication? (30 points) - only one attempt
 	a. DNS
 	b. HTTPS
 	c. DoH (CORRECT)
@@ -32,7 +32,7 @@ What is Yennefer's private IP address? (10 points) - only one attempt
 	192.168.85.133
 
 
-##### Noonwraith has made a mistake when performing his attack. He accidentally exposed the C2 server IP address.
+#### Noonwraith has made a mistake when performing his attack. He accidentally exposed the C2 server IP address.
 What is the public IP address of the C2 server? (15 points) - two attempts maximum
 	134.209.189.120
 
@@ -50,7 +50,7 @@ What is the version of the tool used to fetch the files from the C2 server? (10 
 	1.19.4
 	
 	
-##### Noonwraith made another mistake. Some parts of the communication between Yennefer's machine and the C2 server are not very secure.
+#### Noonwraith made another mistake. Some parts of the communication between Yennefer's machine and the C2 server are not very secure.
 Which protocol is used in the insecure communication? (10 points) - only one attempt
 	a. DNS
 	b. HTTPS
