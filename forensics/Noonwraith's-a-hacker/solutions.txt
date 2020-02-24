@@ -4,9 +4,10 @@ Noonwraith has compromised Yennefer's machine to steal the secret recipe for the
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Which protocol is used in the C2 communication? (30 points) - only one attempt
 	a. DNS
-	b. HTTPS
+	b. IRC
+	c. Telnet
 	c. DoH (CORRECT)
-	d. HTTP
+	d. TLSv1.3
 	e. FTP
 	f. ICMP
 
