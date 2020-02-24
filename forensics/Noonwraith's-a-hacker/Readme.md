@@ -18,12 +18,12 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 
 #### Noonwraith has compromised Yennefer's machine to steal the secret recipe for the resurrection potion. He used a C2 server to communicate with the compromised machine. 
 - Which protocol is used in the C2 communication? (30 points) - only one attempt
-	**a.** DNS
-	**b.** HTTPS
-	**c.** DoH (CORRECT)
-	**d.** HTTP
-	**e.** FTP
-	**f.** ICMP
+	- **a.** DNS
+	- **b.** HTTPS
+	- **c.** DoH (CORRECT)
+	- **d.** HTTP
+	- **e.** FTP
+	- **f.** ICMP
 
 - Which provider is used in the C2 communication? (25 points) - two attempts maximum
 	Cloudflare
