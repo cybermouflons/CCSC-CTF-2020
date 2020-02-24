@@ -19,8 +19,7 @@ The memory dump contains a cmd process which runs a powershell command that can 
 java -jar .\apktool_2.4.0.jar -r d .\treasure.apk
 ```
 
-#### Changes in smali MainActivity file (checkForBinary function):
-----------------------
+##### Changes in smali MainActivity file (checkForBinary function):
 ```bash
 const/4 v7, 0
 return v7
