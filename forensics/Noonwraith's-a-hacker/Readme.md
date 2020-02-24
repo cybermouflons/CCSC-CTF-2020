@@ -40,6 +40,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 
 	* **Answer details:** The IP address which is a private IP is definitely the IP address of the victim.
 
+---------------------------
 #### Noonwraith has made a mistake when performing his attack. He accidentally exposed the C2 server IP address.
 ---------------------------
 - What is the public IP address of the C2 server? (15 points) 
@@ -67,6 +68,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	
 	* **Answer details:** In the GET request of keys.txt follow TCP stream to see the actual request. The version of the software used to issue the request is shown there.
 
+---------------------------
 #### Noonwraith made another mistake. Some parts of the communication between Yennefer's machine and the C2 server are not very secure.
 ---------------------------
 - Which protocol is used in the insecure communication? (10 points) 
