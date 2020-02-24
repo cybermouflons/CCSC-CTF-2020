@@ -20,10 +20,10 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 - Which protocol is used in the C2 communication? (30 points) - only one attempt
 	<br /> **a.** DNS
 	<br /> **b.** HTTPS
-	- **c.** DoH (CORRECT)
-	- **d.** HTTP
-	- **e.** FTP
-	- **f.** ICMP
+	<br /> **c.** DoH (CORRECT)
+	<br /> **d.** HTTP
+	<br /> **e.** FTP
+	<br /> **f.** ICMP
 
 - Which provider is used in the C2 communication? (25 points) - two attempts maximum
 	Cloudflare
@@ -41,11 +41,11 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	linux-gnu
 
 - Which tool was used to fetch the files from the C2 server? (20 points) - only one attempt
-	- **a.** curl
-	- **b.** wget (CORRECT)
-	- **c.** browser
-	- **d.** git
-	- **e.** uGet
+	<br /> **a.** curl
+	<br /> **b.** wget (CORRECT)
+	<br /> **c.** browser
+	<br /> **d.** git
+	<br /> **e.** uGet
 	
 - What is the version of the tool used to fetch the files from the C2 server? (10 points) - three attempts maximum
 	1.19.4
@@ -54,13 +54,13 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	
 #### Noonwraith made another mistake. Some parts of the communication between Yennefer's machine and the C2 server are not very secure.
 - Which protocol is used in the insecure communication? (10 points) - only one attempt
-	- **a.** DNS
-	- **b.** HTTPS
-	- **c.** DoH
-	- **d.** HTTP (CORRECT)
-	- **e.** FTP
-	- **f.** ICMP
-	- **g.** FTPS
+	<br /> **a.** DNS
+	<br /> **b.** HTTPS
+	<br /> **c.** DoH
+	<br /> **d.** HTTP (CORRECT)
+	<br /> **e.** FTP
+	<br /> **f.** ICMP
+	<br /> **g.** FTPS
 	
 - What is the first flag? (20 points)
 	CCSC{a2674l12_Th3r3_I5_n3v3r_a_s3c0nd_0pp0rtunity_to_m4k3_4_fIrSt_Impr3ssIon_021fu831} - no limit
