@@ -43,7 +43,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 - What is the public IP address of the C2 server? (15 points) 
 	<br /> **134.209.189.120**
 
-	* **Answer details:** This is revealed in the HTTP communcation with the requests GET /keys.txt and GET /secret.zip
+	* **Answer details:** This is revealed in the HTTP communication with the requests GET /keys.txt and GET /secret.zip
 
 - What is the Operating System of the compromised machine? (15 points) 
 	<br /> **linux-gnu**
