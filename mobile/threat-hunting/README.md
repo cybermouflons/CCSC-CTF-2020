@@ -14,7 +14,6 @@ Will this treasure worth it though?
 <details>
  <summary>Reveal Spoiler</summary>
 
-The memory dump contains a cmd process which runs a powershell command that can be extracted with volatility.
 ```bash
 java -jar .\apktool_2.4.0.jar -r d .\treasure.apk
 ```
