@@ -26,7 +26,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	<br /> **e.** FTP
 	<br /> **f.** ICMP
 
-```bash
+```
 **Answer details:**
 ```
 
