@@ -33,6 +33,6 @@ java -jar .\sign.jar .\modified.apk
 adb install -r -t .\modified.s.apk
 ```
 
-Click SEND
+##### Click "SEND"
 
 </details>
