@@ -25,10 +25,10 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	- e. FTP
 	- f. ICMP
 
-Which provider is used in the C2 communication? (25 points) - two attempts maximum
+- Which provider is used in the C2 communication? (25 points) - two attempts maximum
 	Cloudflare
 
-What is Yennefer's private IP address? (10 points) - only one attempt
+- What is Yennefer's private IP address? (10 points) - only one attempt
 	192.168.85.133
 
 
