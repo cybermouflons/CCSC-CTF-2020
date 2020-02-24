@@ -52,7 +52,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 
 - Which tool was used to fetch the files from the C2 server? (20 points) 
 	<br /> **a.** curl
-	<br /> **b.** wget (CORRECT)
+	<br /> **b.** wget **(CORRECT)**
 	<br /> **c.** browser
 	<br /> **d.** git
 	<br /> **e.** uGet
