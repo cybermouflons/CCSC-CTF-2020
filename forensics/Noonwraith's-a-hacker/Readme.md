@@ -27,7 +27,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	<br /> **f.** ICMP
 
 ```bash
-Answer details: 
+**Answer details:**
 ```
 
 - Which provider is used in the C2 communication? (25 points) 
