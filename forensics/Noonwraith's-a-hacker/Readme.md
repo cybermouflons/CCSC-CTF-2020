@@ -20,25 +20,25 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 - Which protocol is used in the C2 communication? (30 points) - only one attempt
 	<br /> **a.** DNS
 	<br /> **b.** HTTPS
-	<br /> **c.** DoH (CORRECT)
+	<br /> **c.** DoH **(CORRECT)**
 	<br /> **d.** HTTP
 	<br /> **e.** FTP
 	<br /> **f.** ICMP
 
 - Which provider is used in the C2 communication? (25 points) - two attempts maximum
-	Cloudflare
+	<br /> **Cloudflare**
 
 - What is Yennefer's private IP address? (10 points) - only one attempt
-	192.168.85.133
+	<br /> **192.168.85.133**
 
 
 
 #### Noonwraith has made a mistake when performing his attack. He accidentally exposed the C2 server IP address.
 - What is the public IP address of the C2 server? (15 points) - two attempts maximum
-	134.209.189.120
+	<br /> **134.209.189.120**
 
 - What is the Operating System of the compromised machine? (15 points) - two attempts maximum
-	linux-gnu
+	<br /> **linux-gnu**
 
 - Which tool was used to fetch the files from the C2 server? (20 points) - only one attempt
 	<br /> **a.** curl
@@ -57,16 +57,16 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	<br /> **a.** DNS
 	<br /> **b.** HTTPS
 	<br /> **c.** DoH
-	<br /> **d.** HTTP (CORRECT)
+	<br /> **d.** HTTP **(CORRECT)**
 	<br /> **e.** FTP
 	<br /> **f.** ICMP
 	<br /> **g.** FTPS
 	
 - What is the first flag? (20 points)
-	CCSC{a2674l12_Th3r3_I5_n3v3r_a_s3c0nd_0pp0rtunity_to_m4k3_4_fIrSt_Impr3ssIon_021fu831} - no limit
+	<br /> **CCSC{a2674l12_Th3r3_I5_n3v3r_a_s3c0nd_0pp0rtunity_to_m4k3_4_fIrSt_Impr3ssIon_021fu831} - no limit**
 
 - What is the second flag? (20 points)
-	CCSC{2f35a232_Th3r3's_4_gr4in_0f_truth_in_3v3ry_f4iry_t4l3_24124fsa2} - no limit
+	<br /> **CCSC{2f35a232_Th3r3's_4_gr4in_0f_truth_in_3v3ry_f4iry_t4l3_24124fsa2} - no limit**
 
 
 </details>
