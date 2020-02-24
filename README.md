@@ -27,7 +27,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | Name                                                                                                               | Points | Author      |
 | ------------------------------------------------------------------------------------------------------------------ | ------ | ----------- |
 | [Abnormal Communication](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/abnormal_communication) | 150    | kotsios     |
-| [Noonwraith's a hacker]()                                                                                          | 175    | v4kk15      |
+| [Noonwraith's a hacker](https://github.com/apogiatzis/CCSC-CTF-2020/blob/master/forensics/Noonwraith%27s-a-hacker)                                                                                          | 175    | v4kk15      |
 | [Royal huntsman's Dump](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/royal-huntsman's-dump)   | 150    | s1kk1s      |
 | [Much more than echoes](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/much_more_than_echoes)   | 250    | anderson101 |
 
