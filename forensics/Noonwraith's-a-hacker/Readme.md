@@ -26,7 +26,9 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	<br /> **e.** FTP
 	<br /> **f.** ICMP
 
-##### **Answer details:** 
+```bash
+Answer details: 
+```
 
 - Which provider is used in the C2 communication? (25 points) 
 	<br /> **Cloudflare**
