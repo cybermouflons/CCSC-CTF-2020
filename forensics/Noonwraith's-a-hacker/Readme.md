@@ -20,9 +20,10 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 ---------------------------
 - Which protocol is used in the C2 communication? (30 points) 
 	<br /> **a.** DNS
-	<br /> **b.** HTTPS
+	<br /> **b.** IRC
+	<br /> **b.** Telnet
 	<br /> **c.** DoH **(CORRECT)**
-	<br /> **d.** HTTP
+	<br /> **d.** TLSv1.3
 	<br /> **e.** FTP
 	<br /> **f.** ICMP
 
