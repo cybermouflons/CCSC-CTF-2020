@@ -16,6 +16,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 <details>
  <summary>Reveal Spoiler</summary>
 
+---------------------------
 #### Noonwraith has compromised Yennefer's machine to steal the secret recipe for the resurrection potion. He used a C2 server to communicate with the compromised machine. 
 ---------------------------
 - Which protocol is used in the C2 communication? (30 points) 
