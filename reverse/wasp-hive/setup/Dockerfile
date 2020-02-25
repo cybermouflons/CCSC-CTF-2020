@@ -15,4 +15,6 @@ WORKDIR /setup
 
 RUN echo $PATH && make all
 
-ENTRYPOINT ["python","-m","http.server","--directory","static/"]
+EXPOSE 8000
+
+CMD ["python","-m","http.server","--directory","static/"]
