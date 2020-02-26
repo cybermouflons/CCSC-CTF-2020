@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+
+    <script src="jquery-2.2.4.min.js"></script>
+    <script src="validator.js"></script>
+    <script>
+        
+    </script>
+    <!-- <script src="script.js"></script> -->
+    
+</head>
+<body>
+    <div id="starting-screen">
+        Welcome to the Wasps' Hive!
+        <input id="key" type="text" autocomplete="off" placeholder="Enter hive key here" />
+        <p class="error">The key is wrong!</p>
+        <p class="success">Congratulations! Please enter the hive...</p>
+        <button class="enter-btn">enter</button>
+    </div>
+    
+
+    <script>
+        (function() {
+            Module.onRuntimeInitialized = function() {  
+                $("button.enter-btn").click((event) => {
+                    let key = $("#key").val();
+                    check = Module.cwrap('check', 'number', ['string'])
+                    if (check(key) == 1) {
+                        $("p.error").css("display","none");
+                        $("p.success").css("display","block");
+                    } else {
+                        $("p.error").css("display","block");
+                        $("p.success").css("display","none"); 
+                    }
+                }) 
+            }
+        })();
+        
+    </script>
+</body>
+</html>

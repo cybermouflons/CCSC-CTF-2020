@@ -17,7 +17,8 @@ RUN mkdir /home/ctf/dev && \
 RUN mkdir /home/ctf/bin && \
     cp /bin/sh /home/ctf/bin && \
     cp /bin/ls /home/ctf/bin && \
-    cp /bin/cat /home/ctf/bin 
+    cp /bin/cat /home/ctf/bin && \
+    cp /usr/bin/whoami /home/ctf/bin  
 
 
 COPY ./ctf.xinetd /etc/xinetd.d/ctf
@@ -29,10 +30,12 @@ RUN chmod +x /start.sh
 COPY ./chall.c /home/ctf
 COPY ./flag.txt /home/ctf
 COPY ./Makefile /home/ctf
-RUN chown -R root:ctf /home/ctf && \\
-    chmod -R 750 /home/ctf && \
-    chmod 740 /home/ctf/flag.txt
 RUN make all
+RUN chown -R root:ctf /home/ctf && \
+    chmod +s /home/ctf/chall && \
+    chown -R root:root /home/ctf/flag.txt && \
+    chmod 400 /home/ctf/flag.txt
+
 
 CMD ["/start.sh"]
 EXPOSE 2000
