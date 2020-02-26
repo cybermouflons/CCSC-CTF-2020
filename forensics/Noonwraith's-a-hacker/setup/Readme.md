@@ -1,1 +1,1 @@
-To setup the challenge you need to download GoDoH and run it on a server which is publicly accessible with port 53 (UDP) open. 
+To setup the challenge you need to download GoDoH (https://github.com/sensepost/goDoH) and run it on a server which is publicly accessible with port 53 (UDP) open. Then you have to generate the binaries for Linux/Windows and run them on a victim machine. Wireshark needs to run on the victim machine to generate the PCAP file. The files keys.txt and secret.zip are hosted on a webserver on the same server. The web server can run on any port (e.g. 80). 
