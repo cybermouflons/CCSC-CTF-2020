@@ -10,4 +10,5 @@ ENV LISTEN_PORT 8002
 
 EXPOSE 8002
 
+COPY app/ /app
 COPY ./flag.txt /home/flag.txt
