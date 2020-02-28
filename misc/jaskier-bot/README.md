@@ -4,7 +4,8 @@
 **Author:** \_Roko'sBasilisk\_ & S1kk1S
 
 ## Description
-Jaskier has composed a new song which praises the feats of Geralt of Revia, but he is too shy to share it yet. Interact with him on a direct message with the !help command to find a way to get the flag! You can find Jaskier in our [discord](https://discord.gg/KJyGzzN) server in the #tavern channel.
+Jaskier has composed a new song which praises the feats of Geralt of Revia, but he is too shy to share it yet. Interact with him on a direct message with the !help command to find a way to get the flag!
+
 ## Points
 250
 
@@ -28,6 +29,7 @@ def encrypt(pt):
         enc.append(blk_int.to_bytes(BLOCK_SIZE, byteorder='big'))
     return b''.join(enc)
 ```
-and use the output`!revenc kWtswbSAZmwxx47U2NSeZWzIb0A0AA==` to get the flag `CCSC{w1th_g3r4lt_0f_R1via_al0ng_c4me_th1s_b0t}`.
+and use the output`!revenc kWtswbSAZmwxx47U2NSeZWzIb0A0AA==` to get the flag
+
 </details>
 
