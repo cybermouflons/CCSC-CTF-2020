@@ -30,7 +30,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [Noonwraith's a hacker](https://github.com/apogiatzis/CCSC-CTF-2020/blob/master/forensics/Noonwraith%27s-a-hacker) | 175    | v4kk15      |
 | [Royal huntsman's Dump](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/royal-huntsman's-dump)   | 150    | s1kk1s      |
 | [Much more than echoes](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/much_more_than_echoes)   | 250    | anderson101 |
-| [The King's Curse](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/misc/the-kings-curse)                   | 250    | Demetris    |
+| [The King's Curse](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/forensics/the-kings-curse)              | 250    | Demetris    |
 
 ### Misc
 
