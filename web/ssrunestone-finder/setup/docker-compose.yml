@@ -7,8 +7,6 @@ services:
     restart: always
     environment:
       - FLAG=${FLAG}
-    volumes:
-      - ./app:/app
     ports:
       - "8081:80"
     depends_on:
