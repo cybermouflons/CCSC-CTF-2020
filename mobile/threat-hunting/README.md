@@ -1,4 +1,4 @@
-# Threat Hunting
+# Treasure Hunting
 **Category:** mobile
 
 **Author:** v4kk15
