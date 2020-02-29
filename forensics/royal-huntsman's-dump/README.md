@@ -26,7 +26,6 @@ volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile
 volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile Win7SP1x64 memdump -D dump/ -p 180
 volatility_2.6_win64_standalone.exe -f ..\..\Desktop\medump\medump.raw --profile Win7SP1x64 memdump -D dump/ -p 1128
 ```
-
 ### Flag 1
 ```bash
 strings -e l ./108.dmp | grep wget # Gets the file for the flag
