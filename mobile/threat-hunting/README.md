@@ -28,7 +28,7 @@ return v7
 
 ##### Install the patched .apk on the device:
 ```bash
-java -jar .\apktool_2.4.0.jar b .\app-debug\ -o modified.apk
+java -jar .\apktool_2.4.0.jar b .\treasure\ -o modified.apk
 java -jar .\sign.jar .\modified.apk
 adb install -r -t .\modified.s.apk
 ```
