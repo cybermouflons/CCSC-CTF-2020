@@ -70,7 +70,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 
 | Name                                                                                              | Points | Author |
 | ------------------------------------------------------------------------------------------------- | ------ | ------ |
-| [Treasure Hunting](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/mobile/threat-hunting) | 350    | v4kk15 |
+| [Treasure Hunting](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/mobile/threat-hunting) | 300    | v4kk15 |
 
 ### Web
 
