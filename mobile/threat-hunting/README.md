@@ -7,7 +7,7 @@
 Will this treasure worth it though?
 
 ## Points
-350
+300
 
 ## Solution
 
