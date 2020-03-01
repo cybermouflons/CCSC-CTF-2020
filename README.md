@@ -47,6 +47,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [Spell Caster](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/spell-caster) | 300    | \_Roko'sBasilisk\_ |
 | [Guy de Bois](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/guy-de-bois)   | 200    | \_Roko'sBasilisk\_ |
 | [Easy As PIE](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/easy_as_pie)   | 400    | s3nn |
+| [Heaping Praise](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/heaping-praise)   | 250    | zer0heir |
 
 ### Reverse
 
