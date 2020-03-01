@@ -46,6 +46,7 @@ Although some of the challenges may run as is, it is recommended that you have *
 | ---------------------------------------------------------------------------------------- | ------ | ------------------ |
 | [Spell Caster](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/spell-caster) | 300    | \_Roko'sBasilisk\_ |
 | [Guy de Bois](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/guy-de-bois)   | 200    | \_Roko'sBasilisk\_ |
+| [Easy As PIE](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/pwn/easy_as_pie)   | 400    | s3nn |
 
 ### Reverse
 
@@ -82,3 +83,4 @@ Although some of the challenges may run as is, it is recommended that you have *
 | [SSRunestone Finder](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/ssrunestone-finder)       | 350    | \_Roko'sBasilisk\_ |
 | [Witcher Training Camp](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/witcher-training-camp) | 250    | \_Roko'sBasilisk\_ |
 | [Welcome](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/welcome)                             | 50     | kotsios            |
+| [Web of Web](https://github.com/apogiatzis/CCSC-CTF-2020/tree/master/web/web-of-web)                       | 250 + 100    | vp            |
