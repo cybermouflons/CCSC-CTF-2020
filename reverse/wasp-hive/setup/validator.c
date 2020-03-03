@@ -5,6 +5,8 @@ char key[] = {0x8f,0xcc,0x9f,0xdc,0xa7,0xd0,0xe3,0x81,0xb5,0xc6,0xf3,0x96,0xfb,0
 
 int check(char *mykey) {
   char iv = 0xcc;
+  size_t key_size = sizeof(key) / sizeof(key[0]);
+  if (strlen(mykey) != key_size) return 0;
   for (int i = 0; mykey[i] != '\0'; i++) {
     iv ^= mykey[i];
     if (key[i] != iv) {
