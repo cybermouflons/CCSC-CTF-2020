@@ -1,4 +1,4 @@
-# Secret Message
+# The Map 
 **Category**: Stego
 
 **Author**: @superhedgy
