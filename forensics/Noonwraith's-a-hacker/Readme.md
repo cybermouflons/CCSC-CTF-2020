@@ -31,7 +31,7 @@ PCAP file for analysis. Multiple questions follow, each one with different diffi
 	* **Answer details:** The communication between the compromised machine and the C2 is done via DoH. This can be derived by the TLS communication that the victim IP has with the Cloudflare DoH IP address.
 
 - Which provider is used in the C2 communication? (25 points) 
-	<br /> **Cloudflare**
+	<br /> **cloudflare**
 	
 	* **Answer details:** This can be derived by the TLS communication that the victim IP has with the Cloudflare DoH IP address. A simple google search is enough to find out that the IP belongs to Cloudflare DoH - https://community.cloudflare.com/t/dns-over-https-using-https-104-16-249-249-dns-query/64472
 
