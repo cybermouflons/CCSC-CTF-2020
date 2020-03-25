@@ -18,6 +18,13 @@ The bot is vulnerable to command injection on the !revenc command. More precisel
 
 The encryption is performed on a 16 bit sized blocks which are then transformed to a 4x4 table of 16 bits. Then for each row in table a the 1s and 0s are counted as `i,j` respectively and a left bit shift rotation is performed on the ith row of the table by jth positions.
 ```python
+def h_rotr(pt, rot, size, idx):
+    m = hmask(size, idx)
+    blk = pt & m
+    rot = rot % size
+    r = ((blk >> rot) | (blk << (size - rot)))  & m
+    return pt ^ blk | r
+
 def encrypt(pt):
     enc = []
     blocks = blockify(pt, BLOCK_SIZE, b'\x00')
