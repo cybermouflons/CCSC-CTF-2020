@@ -1,7 +1,7 @@
 # Web-of-Web
 **Category:** web
 
-**Author:** Varnavas Papaioannou
+**Author:** Varnavas Papaioannou (vp)
 
 ## Description
 Stregobar is hiding in his tower and isn't coming out; Help Geralt avenge Renfri by exploiting one of his many clients. There are two services running: on ports 5001 and 9999. Watch out though, there is a catch, the service running on 1337 is hiding locally and responds only to the following command: http://localhost:1337/flag

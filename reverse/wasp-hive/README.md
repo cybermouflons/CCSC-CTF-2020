@@ -23,4 +23,6 @@ Participants have to reverse engineer the WebAssembly module and understand the 
 Assuming the participants understand the logic, they can extract that byte map from memory in wasm and xor it in a reverse manner to get thet flag.
 
 An example solution of how to xor the flag is given in `xor.py` file.
+
+**NOTE:** During the competition there was an intended solution which could get you the flag by bruteforcing the input letter by letter using javascript. The version of the challenge provided here has been patched against that solution.
 </details>

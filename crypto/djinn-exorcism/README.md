@@ -19,4 +19,6 @@ This challenge has a session timeout of 20 seconds and as a result participants 
 
 A solution script `solve.py` is provided in the `setup` folder.
 
+**Alternative Solution**: Some members reported an alterative solution which was to attempt to send the decryption enough times such that you can create an one-to-one mapping table from encryption-decryption. This is possible since the key remains the same each attempt and there is not any restriction on the number of attempts. 
+
 </details>
