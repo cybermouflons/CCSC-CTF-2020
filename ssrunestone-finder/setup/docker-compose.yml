@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+
+  web:
+    build: .
+    restart: always
+    environment:
+      - FLAG="ccsc{It's_b3St_N0t_t0_foRgeT_Th3m_Fl4gs}"
+    ports:
+      - "8085:80"
+    depends_on:
+      - redis
+  
+  redis:
+    image: 'redis'
+    restart: always  # fix?
+
+  worker:
+    build: 
+      context: .
+      dockerfile: Dockerfile-worker
+    restart: always
+    depends_on:
+      - redis
