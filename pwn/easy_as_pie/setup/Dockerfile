@@ -8,6 +8,7 @@ RUN apt-get install -y socat gcc-multilib
 WORKDIR /root
 COPY pie .
 COPY flag.txt .
+RUN chmod +x ./pie
 
 EXPOSE 61337
-CMD ["socat", "-vv","TCP-LISTEN:61337,reuseaddr,fork,su=root", "EXEC:'/root/pie'"]
+CMD ["socat", "-T60","TCP-LISTEN:61337,reuseaddr,fork,su=root", "EXEC:'/root/pie'"]
